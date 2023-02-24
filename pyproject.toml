@@ -8,7 +8,11 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 scrapy = "^2.8.0"
+pubhelper = "^0.1.6"
 
+[[tool.poetry.source]]
+name = "bfsu"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple/"
 
 [build-system]
 requires = ["poetry-core"]

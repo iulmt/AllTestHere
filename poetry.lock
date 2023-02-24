@@ -19,6 +19,11 @@ docs = ["furo", "myst-parser", "sphinx", "sphinx-notfound-page", "sphinxcontrib-
 tests = ["attrs[tests-no-zope]", "zope.interface"]
 tests-no-zope = ["cloudpickle", "cloudpickle", "hypothesis", "hypothesis", "mypy (>=0.971,<0.990)", "mypy (>=0.971,<0.990)", "pympler", "pympler", "pytest (>=4.3.0)", "pytest (>=4.3.0)", "pytest-mypy-plugins", "pytest-mypy-plugins", "pytest-xdist[psutil]", "pytest-xdist[psutil]"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "automat"
 version = "22.10.0"
@@ -38,6 +43,11 @@ six = "*"
 [package.extras]
 visualize = ["Twisted (>=16.1.1)", "graphviz (>0.5.1)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "certifi"
 version = "2022.12.7"
@@ -49,6 +59,11 @@ files = [
     {file = "certifi-2022.12.7-py3-none-any.whl", hash = "sha256:4ad3232f5e926d6718ec31cfc1fcadfde020920e278684144551c91769c7bc18"},
     {file = "certifi-2022.12.7.tar.gz", hash = "sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "cffi"
@@ -126,6 +141,11 @@ files = [
 
 [package.dependencies]
 pycparser = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "charset-normalizer"
@@ -225,6 +245,11 @@ files = [
     {file = "charset_normalizer-3.0.1-py3-none-any.whl", hash = "sha256:7e189e2e1d3ed2f4aebabd2d5b0f931e883676e51c7624826e0a4e5fe8a0bf24"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "constantly"
 version = "15.1.0"
@@ -236,6 +261,11 @@ files = [
     {file = "constantly-15.1.0-py2.py3-none-any.whl", hash = "sha256:dd2fa9d6b1a51a83f0d7dd76293d734046aa176e384bf6e33b7e44880eb37c5d"},
     {file = "constantly-15.1.0.tar.gz", hash = "sha256:586372eb92059873e29eba4f9dec8381541b4d3834660707faf8ba59146dfc35"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "cryptography"
@@ -283,6 +313,11 @@ test = ["hypothesis (>=1.11.4,!=3.79.2)", "iso8601", "pretend", "pytest (>=6.2.0
 test-randomorder = ["pytest-randomly"]
 tox = ["tox"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "cssselect"
 version = "1.2.0"
@@ -294,6 +329,11 @@ files = [
     {file = "cssselect-1.2.0-py2.py3-none-any.whl", hash = "sha256:da1885f0c10b60c03ed5eccbb6b68d6eff248d91976fcde348f395d54c9fd35e"},
     {file = "cssselect-1.2.0.tar.gz", hash = "sha256:666b19839cfaddb9ce9d36bfe4c969132c647b92fc9088c4e23f786b30f1b3dc"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "filelock"
@@ -311,6 +351,11 @@ files = [
 docs = ["furo (>=2022.12.7)", "sphinx (>=5.3)", "sphinx-autodoc-typehints (>=1.19.5)"]
 testing = ["covdefaults (>=2.2.2)", "coverage (>=7.0.1)", "pytest (>=7.2)", "pytest-cov (>=4)", "pytest-timeout (>=2.1)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "hyperlink"
 version = "21.0.0"
@@ -326,6 +371,11 @@ files = [
 [package.dependencies]
 idna = ">=2.5"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "idna"
 version = "3.4"
@@ -337,6 +387,11 @@ files = [
     {file = "idna-3.4-py3-none-any.whl", hash = "sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"},
     {file = "idna-3.4.tar.gz", hash = "sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "incremental"
@@ -354,6 +409,11 @@ files = [
 mypy = ["click (>=6.0)", "mypy (==0.812)", "twisted (>=16.4.0)"]
 scripts = ["click (>=6.0)", "twisted (>=16.4.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "itemadapter"
 version = "0.7.0"
@@ -365,6 +425,11 @@ files = [
     {file = "itemadapter-0.7.0-py3-none-any.whl", hash = "sha256:0e0ab4ddf92c71af57c2386952a61756ae2ecf6c65f976ffaee9ba91ae87a91c"},
     {file = "itemadapter-0.7.0.tar.gz", hash = "sha256:32c061ec9ab47d5343e8011b268730f48ff632a0192b95292d118b18dbd7687a"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "itemloaders"
@@ -384,6 +449,11 @@ jmespath = ">=0.9.5"
 parsel = ">=1.5.0"
 w3lib = ">=1.17.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "jmespath"
 version = "1.0.1"
@@ -395,6 +465,11 @@ files = [
     {file = "jmespath-1.0.1-py3-none-any.whl", hash = "sha256:02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980"},
     {file = "jmespath-1.0.1.tar.gz", hash = "sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "lxml"
@@ -489,6 +564,11 @@ html5 = ["html5lib"]
 htmlsoup = ["BeautifulSoup4"]
 source = ["Cython (>=0.29.7)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "packaging"
 version = "23.0"
@@ -500,6 +580,11 @@ files = [
     {file = "packaging-23.0-py3-none-any.whl", hash = "sha256:714ac14496c3e68c99c29b00845f7a2b85f3bb6f1078fd9f72fd20f0570002b2"},
     {file = "packaging-23.0.tar.gz", hash = "sha256:b6ad297f8907de0fa2fe1ccbd26fdaf387f5f47c7275fedf8cce89f99446cf97"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "parsel"
@@ -519,6 +604,11 @@ lxml = "*"
 packaging = "*"
 w3lib = ">=1.19.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "protego"
 version = "0.2.1"
@@ -534,6 +624,28 @@ files = [
 [package.dependencies]
 six = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
+[[package]]
+name = "pubhelper"
+version = "0.1.6"
+description = ""
+category = "main"
+optional = false
+python-versions = ">=3.6,<4.0"
+files = [
+    {file = "pubhelper-0.1.6-py3-none-any.whl", hash = "sha256:321a6cc1a0e901ede32326522a05c09748281628a0b3b64b3cc38a2543ffba01"},
+    {file = "pubhelper-0.1.6.tar.gz", hash = "sha256:64121728c008406b6d8475015ee45217bad9a32496586d82bdbcf8fb299449c4"},
+]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "pyasn1"
 version = "0.4.8"
@@ -545,6 +657,11 @@ files = [
     {file = "pyasn1-0.4.8-py2.py3-none-any.whl", hash = "sha256:39c7e2ec30515947ff4e87fb6f456dfc6e84857d34be479c9d4a4ba4bf46aa5d"},
     {file = "pyasn1-0.4.8.tar.gz", hash = "sha256:aef77c9fb94a3ac588e87841208bdec464471d9871bd5050a287cc9a475cd0ba"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "pyasn1-modules"
@@ -561,6 +678,11 @@ files = [
 [package.dependencies]
 pyasn1 = ">=0.4.6,<0.5.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "pycparser"
 version = "2.21"
@@ -572,6 +694,11 @@ files = [
     {file = "pycparser-2.21-py2.py3-none-any.whl", hash = "sha256:8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9"},
     {file = "pycparser-2.21.tar.gz", hash = "sha256:e644fdec12f7872f86c58ff790da456218b10f863970249516d60a5eaca77206"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "pydispatcher"
@@ -587,6 +714,11 @@ files = [
 
 [package.extras]
 dev = ["tox"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "pyopenssl"
@@ -607,6 +739,11 @@ cryptography = ">=38.0.0,<40"
 docs = ["sphinx (!=5.2.0,!=5.2.0.post0)", "sphinx-rtd-theme"]
 test = ["flaky", "pretend", "pytest (>=3.0.1)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "pypydispatcher"
 version = "2.1.2"
@@ -617,6 +754,11 @@ python-versions = "*"
 files = [
     {file = "PyPyDispatcher-2.1.2.tar.gz", hash = "sha256:b6bec5dfcff9d2535bca2b23c80eae367b1ac250a645106948d315fcfa9130f2"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "queuelib"
@@ -629,6 +771,11 @@ files = [
     {file = "queuelib-1.6.2-py2.py3-none-any.whl", hash = "sha256:4b96d48f650a814c6fb2fd11b968f9c46178b683aad96d68f930fe13a8574d19"},
     {file = "queuelib-1.6.2.tar.gz", hash = "sha256:4b207267f2642a8699a1f806045c56eb7ad1a85a10c0e249884580d139c2fcd2"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "requests"
@@ -652,6 +799,11 @@ urllib3 = ">=1.21.1,<1.27"
 socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "requests-file"
 version = "1.5.1"
@@ -667,6 +819,11 @@ files = [
 [package.dependencies]
 requests = ">=1.0.0"
 six = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "scrapy"
@@ -700,6 +857,11 @@ Twisted = ">=18.9.0"
 w3lib = ">=1.17.0"
 "zope.interface" = ">=5.1.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "service-identity"
 version = "21.1.0"
@@ -725,6 +887,11 @@ docs = ["furo", "sphinx"]
 idna = ["idna"]
 tests = ["coverage[toml] (>=5.0.2)", "pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "setuptools"
 version = "67.3.3"
@@ -742,6 +909,11 @@ docs = ["furo", "jaraco.packaging (>=9)", "jaraco.tidelift (>=1.4)", "pygments-g
 testing = ["build[virtualenv]", "filelock (>=3.4.0)", "flake8 (<5)", "flake8-2020", "ini2toml[lite] (>=0.9)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "pip (>=19.1)", "pip-run (>=8.8)", "pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=1.3)", "pytest-flake8", "pytest-mypy (>=0.9.1)", "pytest-perf", "pytest-timeout", "pytest-xdist", "tomli-w (>=1.0.0)", "virtualenv (>=13.0.0)", "wheel"]
 testing-integration = ["build[virtualenv]", "filelock (>=3.4.0)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "pytest", "pytest-enabler", "pytest-xdist", "tomli", "virtualenv (>=13.0.0)", "wheel"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "six"
 version = "1.16.0"
@@ -753,6 +925,11 @@ files = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
     {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "tldextract"
@@ -771,6 +948,11 @@ filelock = ">=3.0.8"
 idna = "*"
 requests = ">=2.1.0"
 requests-file = ">=1.4"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "twisted"
@@ -811,6 +993,11 @@ test = ["PyHamcrest (>=1.9.0)", "cython-test-exception-raiser (>=1.0.2,<2)", "hy
 tls = ["idna (>=2.4)", "pyopenssl (>=21.0.0)", "service-identity (>=18.1.0)"]
 windows-platform = ["PyHamcrest (>=1.9.0)", "appdirs (>=1.4.0)", "bcrypt (>=3.0.0)", "contextvars (>=2.4,<3)", "cryptography (>=2.6)", "cython-test-exception-raiser (>=1.0.2,<2)", "h2 (>=3.0,<5.0)", "hypothesis (>=6.0,<7.0)", "idna (>=2.4)", "priority (>=1.1.0,<2.0)", "pyasn1", "pyopenssl (>=21.0.0)", "pyserial (>=3.0)", "pywin32 (!=226)", "pywin32 (!=226)", "service-identity (>=18.1.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "twisted-iocpsupport"
 version = "1.0.2"
@@ -833,6 +1020,11 @@ files = [
     {file = "twisted_iocpsupport-1.0.2-pp37-pypy37_pp73-win_amd64.whl", hash = "sha256:7d972cfa8439bdcb35a7be78b7ef86d73b34b808c74be56dfa785c8a93b851bf"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "typing-extensions"
 version = "4.5.0"
@@ -844,6 +1036,11 @@ files = [
     {file = "typing_extensions-4.5.0-py3-none-any.whl", hash = "sha256:fb33085c39dd998ac16d1431ebc293a8b3eedd00fd4a32de0ff79002c19511b4"},
     {file = "typing_extensions-4.5.0.tar.gz", hash = "sha256:5cb5f4a79139d699607b3ef622a1dedafa84e115ab0024e0d9c044a9479ca7cb"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "urllib3"
@@ -862,6 +1059,11 @@ brotli = ["brotli (>=1.0.9)", "brotlicffi (>=0.8.0)", "brotlipy (>=0.6.0)"]
 secure = ["certifi", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "ipaddress", "pyOpenSSL (>=0.14)", "urllib3-secure-extra"]
 socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [[package]]
 name = "w3lib"
 version = "2.1.1"
@@ -873,6 +1075,11 @@ files = [
     {file = "w3lib-2.1.1-py3-none-any.whl", hash = "sha256:7fd5bd7980a95d1a8185e867d05f68a591aa281a3ded4590d2641d7b09086ed4"},
     {file = "w3lib-2.1.1.tar.gz", hash = "sha256:0e1198f1b745195b6b3dd1a4cd66011fbf82f30a4d9dabaee1f9e5c86f020274"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
 
 [[package]]
 name = "zope-interface"
@@ -928,7 +1135,12 @@ docs = ["Sphinx", "repoze.sphinx.autointerface"]
 test = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+reference = "bfsu"
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "246945360a07606b3cf11d73f96674fcd5fb9fafdf3ff1b86b3214090bd0ead6"
+content-hash = "458bcc6ac0901daa1a6ee5e97438372799112a445469d767e3d4280566e63443"
