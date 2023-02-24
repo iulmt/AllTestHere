@@ -55,7 +55,7 @@ class CountMinSketchFilter(scrapy.dupefilters.BaseDupeFilter):
 
         # 保存去重数据
         if not ret:
-            # subtask.submit(export, self.cm)
+            subtask.submit(export, self.cm)
             self.logger.debug(f'dup filter, new target: {request}')
 
         if ret:
