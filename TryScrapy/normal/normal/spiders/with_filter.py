@@ -32,8 +32,9 @@ def build_page(res):
 
 class DemoSpider(scrapy.Spider):
     name = 'with_filter'
-    start_urls = ['https://www.xxx.com']
+    start_urls = ['https://www.qq.com']
     custom_settings = {
+        'JOBDIR': 'jobs',
         'DUPEFILTER_CLASS': 'normal.filters.CountMinSketchFilter',
     }
 
@@ -60,6 +61,7 @@ class DemoSpider(scrapy.Spider):
             item['ip'] = str(res.ip_address)
             item['domain'] = uri.host or uri.hostname
             ret.append(item)
+
             return ret
         else:
             logger.debug(f'{res.url} build page failed')

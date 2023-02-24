@@ -20,6 +20,7 @@ class Options(object):
                 setattr(obj, key, val)
         with Session.begin() as sess:
             sess.add(obj)
+        return obj
 
 
 class SiteInfo(Base, Options):

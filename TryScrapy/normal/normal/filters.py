@@ -30,7 +30,7 @@ class CountMinSketchFilter(scrapy.dupefilters.BaseDupeFilter):
             self.cm = CountMinSketch.frombytes(cm_path.read_bytes())
         else:
             self.cm = CountMinSketch(width=10000000, depth=5)
-        self.logger = logging.getLogger(Path(__file__).name)
+        self.logger = logging.getLogger('CountMinSketchFilter')
 
     @classmethod
     def from_settings(cls, settings):
